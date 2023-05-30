@@ -60,7 +60,7 @@ async function displayPopularMovies() {
   });
 }
 async function fetchAPIData(endpoint) {
-  const API_KEY = '';
+  // const API_KEY = '';
   const API_URL = 'https://api.themoviedb.org/3/';
 
   showSpinner();
